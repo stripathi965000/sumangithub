@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="hSM_ZcABHxBu4rA0U98I">
+    <mxGraphModel dx="964" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0fg3nec-gP9myS-sFBQQ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="280" width="700" x="60" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0fg3nec-gP9myS-sFBQQ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" value="RG Hard Code Deployment through Terraform" vertex="1">
+          <mxGeometry height="60" width="340" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0fg3nec-gP9myS-sFBQQ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=15;" value="Requirement:&lt;div&gt;1. Active Azure Subscription&lt;/div&gt;&lt;div&gt;2.Terraform and Az CLI Installed on Computer&lt;/div&gt;&lt;div&gt;3. Resource Group Block Code&lt;/div&gt;&lt;div&gt;4. Azure Provider Block for Terraform&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="340" x="50" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0fg3nec-gP9myS-sFBQQ-4" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="30.99" x="60" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0fg3nec-gP9myS-sFBQQ-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Azure Subscription" vertex="1">
+          <mxGeometry height="30" width="130" x="80" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0fg3nec-gP9myS-sFBQQ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="220" width="620" x="100" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="0fg3nec-gP9myS-sFBQQ-7" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="110" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0fg3nec-gP9myS-sFBQQ-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Resource Group&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="130" x="150" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="0fg3nec-gP9myS-sFBQQ-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;align=center;labelBorderColor=none;horizontal=1;" value="RG can be created Manually and also through Automation using Terraform.&lt;div&gt;Best Method is Terraform to maintain Source Code Management.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="490" x="150" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="0fg3nec-gP9myS-sFBQQ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" value="All the other Infrastructure will be created inside this Resource Group" vertex="1">
+          <mxGeometry height="60" width="340" x="220" y="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
